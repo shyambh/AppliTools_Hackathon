@@ -64,7 +64,7 @@ namespace ApplitoolsTutorial
         public void GoToApplication()
         {
             //This uses Selenium to navigate to a url of the page below
-            webDriver.Navigate().GoToUrl("https://demo.applitools.com/gridHackathonV1.html");
+            webDriver.Navigate().GoToUrl("https://demo.applitools.com/gridHackathonV2.html");
         }
 
         public bool IsElementPresentByCssOrXpath( string locator, bool cssSelector = true)
